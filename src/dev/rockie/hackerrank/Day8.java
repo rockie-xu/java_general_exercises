@@ -34,3 +34,17 @@ public class Day8 {
         }
     }
 }
+
+class Day81 {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int numInt = scanner.nextInt();
+        double numDouble = scanner.nextDouble();
+//        scanner.nextLine();
+        String text = scanner.nextLine();
+        scanner.close();
+        System.out.println(String.format("first: %s, second: %s, third: %s", numInt, numDouble, text));
+    }
+}
